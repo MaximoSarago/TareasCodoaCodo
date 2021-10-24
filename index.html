@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trabajo Practico Integrador</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	
+</head>
+<body>
+
+<!-- Navigation -->
+
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="codoacodo.png" alt="Logo de Codo a Codo" title="Logo"></a><h4>Conf Bs As </h4>>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-Link active" href="#">La conferencia</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-Link" href="#">Los oradores</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-Link" href="#">El lugar y la fecha</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-Link" href="#">Conviértete en orador</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-item-verde" href="integrador js/comprar.html">Comprar tickets</a>
+				</li>
+		    </ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Portada con la imagen del Palacio de Aguas de Bs As-->
+
+<div class="container-fluid padding">
+    <img class="imagenPalacioAguas" src="ba1.jpg" alt="Foto Palacio de Aguas Corrientes">
+    <div class="container-caption">
+	    <h2 class="titulo"><strong>Conf Bs As</strong></h2>
+        <p class="parrafoPalacio"> <strong> A Buenos Aires llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a los miembros del evento, a otros estudiantes de Codo a codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</strong></p>
+        <div class="btn_div_pres">
+        	<a href="#" button type="button" class="btn btn-outline-secondary"><strong>Quiero ser orador</strong></a>
+           	<a href="integrador js/comprar.html" button type="button" class="btn btn-success">Comprar Tickets</a>
+		</div>
+		
+	</div>
+		
+</div>
+
+<!--Parte Titulo: Conoce a los Oradores-->
+
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-12">
+		<h4 class="titulochico">CONOCE A LOS</h4>
+		<h1 class="titulogrande">ORADORES</h1>
+	</div>
+</div>
+</div>
+
+<!-- Parte Cards de los tres oradores con 2 botoncitos cada uno -->
+
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-sm-6 col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="steve.jpg" alt="Foto de Steve Jobs" width="auto" height="auto">
+			<div class="card-body">
+				<button type="button" id="buttons" class="btn btn-warning">JavaScript</button>
+				<button type="button" id="buttons2" class="btn btn-info">React</button>
+				<hr>
+				<h4 class="card-title">Steve Jobs</h4>
+				<p class="card-tex">Steven Paul Jobs, ​​​​ más conocido como Steve Jobs, fue un empresario y magnate de los negocios en el sector informático y de la industria del entretenimiento estadounidense. Fue cofundador y presidente ejecutivo de Apple​</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-sm-6 col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="bill1.jpg" alt="Foto de Bill Gates"  width="auto" height="auto">
+			<div class="card-body">
+				<button type="button" id="buttons" class="btn btn-warning">JavaScript</button>
+				<button type="button" id="buttons2" class="btn btn-info">React</button>
+				<hr>
+				<h4 class="card-title">Bill Gates</h4>
+				<p class="card-tex">William Henry Gates III, mejor conocido como Bill Gates, es un empresario, informático y filántropo estadounidense, conocido por haber creado y fundado junto con Paul Allen, la empresa Microsoft aasda aff.​</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-sm-6 col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="ada.jpg" alt="Foto de Ada King" width="auto" height="auto"">
+			<div class="card-body">
+				<button type="button" id="buttons3" class="btn btn-secondary">Negocios</button>
+				<button type="button" id="buttons4" class="btn btn-danger">Startups</button>
+				<hr>
+				<h4 class="card-title">Ada Lovelace</h4>
+				<p class="card-tex">Augusta Ada King, condesa de Lovelace, registrada al nacer como Augusta Ada Byron y conocida habitualmente como Ada Lovelace, fue una matemática y escritora británica, célebre sobre todo por su trabajo acerca de la calculadora.​</p>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<br>
+
+<!--- Parte con dos columnas (Foto Playa + Párrafo con botón) -->
+
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-lg-6" id="caja1">
+		<img class="img-fluid" src="honolulu.jpg" alt="Foto de playa">
+	</div>
+	<div class="col-lg-6" id="caja2">
+	<h2>Bs As - Octubre</h2>
+	<p>Buenos Aires es la gran capital cosmopolita de Argentina. La Costa Atlántica, también llamada «La Costa», es una denominación popular en Argentina para referirse a las ciudades con turismo estival basado en el atractivo "playa"; todas son lindantes con el Océano Atlántico. Cada verano, son escogidas por millones de personas como destino para vacacionar.</p>
+	<button type="button" id="ConoceMas" class="btn btn-outline-light btn-sm">Conocé Más</button>
+	<br>
+	</div>
+</div>
+
+<!--- Formulario de Contacto y comentarios -->
+
+<div class="container-fluid padding">
+	<div class="anotate">
+		<div class="row text-center">
+			<div class="col-12">
+				<br>
+				<h6 class="titulochico">CONVIERTETE EN UN</h6>
+				<h3 class="titulogrande">ORADOR</h3>
+				<h6> Anótate como orador para dar una <span style="text-decoration: underline dotted">charla ignite</span>. Cuéntanos de qué quieres hablar! </h6>
+			</div>
+		</div>	
+	</div>	
+			<br>
+	<div class="anotate">		
+			<div class="row">
+			<div class="col">
+		  	<input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+			</div>
+			<div class="col">
+	  			<input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+			</div>
+			</div>
+	</div>			
+			<br>
+	<div class="anotate">
+			<div class="form-floating">
+			<textarea class="form-control" placeholder="Sobre qué quieres hablar?" id="floatingTextarea2" style="height: 100px"></textarea>
+			<label for="floatingTextarea2">Recuerda incluir un título para tu charla</label>
+			</div>
+			<button type="button" class="btn btn-success" id="btn-enviar">Enviar</button>
+	</div>
+</div>
+
+<br>
+
+<!--- Footer -->
+
+<footer>
+	<div class="navbar navbar-expand-md bg-info nav-justified justify-content-around">
+		<ul class="navbar-nav container">
+			<li class="nav-item">
+				<a class="nav-link text-white" href="#">Preguntas frecuentes</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-white" href="#">Contactanos</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-white" href="#">Prensa</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-white" href="#">Conferencias</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-white" href="#">Términos y condiciones</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-white" href="#">Privacidad</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-white" href="#">Estudiantes</a>
+			</li>
+		</ul>
+	</div>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
