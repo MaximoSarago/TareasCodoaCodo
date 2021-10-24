@@ -1,0 +1,126 @@
+pasos a seguir:
+
+
+ls
+
+git init  -- inicializar proyecto
+
+git status
+
+
+git add
+
+
+
+
+git commit
+
+
+git config --global user.email 
+
+
+git config --global user.name
+
+
+git status
+
+
+git commit  -- editor de codigo bin
+
+
+
+git log   -- punto de partida
+
+
+git status -- ya no hay mas nada que hacer 
+
+
+
+git checkout -- index.html
+
+
+
+
+HEAD -> master   el codigo donde estoy parado.
+
+
+
+crear carpeta y archivo de prueba.
+
+
+crear archivo .gitignore
+
+
+git branch
+
+
+git branch login
+
+
+
+para moverme dentro del login:  
+
+
+git checkout login
+
+
+git branch
+
+
+git add .
+
+
+git commit -m "version alternativa coon un login"
+
+
+
+git log
+
+
+git branch
+
+
+git checkout master
+
+
+
+luego de tener el codigo y el proyecto para compartirlo vamos a github
+
+
+
+crear nuevo proyecto CodoaCodo 
+
+
+
+copiar repositoria e ir a nuestro bach
+
+
+git remote add origin https://github.com/leaCodoaCodo/CodoaCodo.git
+
+
+y luego
+
+
+git push -u origin master
+
+
+
+login para subir el codigo
+
+
+
+borrar trabajo y clonarlo
+
+
+git clone
+
+
+
+
+
+
+
+
+
+
+
